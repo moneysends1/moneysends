@@ -1,85 +1,99 @@
-
 .panel {
-  height: 700px;
-  width:700px;   
+  /* height: 500px; */
+  max-width: 60%;
+  background: #89cff0;
+  height: 70%;
+  border-radius: 50% 0 0 50%;
+  position: absolute;
+  right: 0;
+  top: 95px;
 
 }
 
 .title {
-  background: linear-gradient(to bottom right,#232DEE,
-  #40a0e0);
-  z-index: -1;
+  background: linear-gradient(#232DEE, #40a0e0);
+  max-width: 100%;
+  
 }
 
 .info {
-    background: white;
-    width: 311%;
-    margin: -2px;
-    padding: 40px;
+  background: white;
+  width: 311%;
+  margin: -2px;
+  padding: 40px;
 }
 
 .center {
   margin: auto;
-    width: 25%;
-    height: 400px;
-    padding: 30px;
-    background: white;
-    margin: -500px 0 300px 612px;
-    border-radius: 10px;
-    z-index: 1;
-    box-shadow: 0 26px 20px 0 rgba(0, 0, 0, 0.2), 0 18px 30px 0 rgba(0, 0, 0, 0.19);  
+  width: 25%;
+  height: 400px;
+  padding: 30px;
+  background: white;
+  margin: -500px 0 300px 512px;
+  border-radius: 10px;
+  z-index: 1;
+  box-shadow: 0 26px 20px 0 rgba(0, 0, 0, 0.2), 0 18px 30px 0 rgba(0, 0, 0, 0.19);  
 }
 
 input {
-    border : 0;
-    padding : 10px 20px;
-    border: 1px solid #eee;
-    margin: 15px 0px 10px 0;
-    outline : 0;
-    font-size : 12px;
-    border-radius: 10px;
-    width: 100%;
+  border : 0;
+  padding : 10px 20px;
+  border: 1px solid #eee;
+  margin: 15px 0px 10px 0;
+  outline : 0;
+  font-size : 12px;
+  border-radius: 10px;
+  width: 100%;
 }
+
 img {
-    height: 50px;
-    margin-left: 41px;
+  height: 30px;
+  margin-left: 41px;
 }
 
 .text {
- color: paleturquoise;
- margin-top: 150px;
- padding: 66px;
- font-size: 18px;
- /* background: olivedrab; */
- width: 60%;
- height: 75%;
- float: right;
+  color: paleturquoise;
+  margin-top: 150px;
+  padding: 66px;
+  font-size: 18px;
+  /* background: olivedrab; */
+  width: 60%;
+  height: 75%;
+  float: right;
 }
 
 .button {
-      background: #40A0E0;
-    
+  background: #40A0E0;   
 }
+
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
   font-style: oblique;
   color: white;
-  font-size: 55px;
+  font-size: 50px;
+  font-weight: 700
 }
+
 h2 {
-  font-family: 'Roboto', sans-serif light;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
   color: white;
   font-size: 50px;
+  
 }
 
 .panel-info {
-  padding: 100px;
-  font-family: 'Roboto', sans-serif light;
+  padding: 40px;
+  /* font-family: 'Roboto', sans-serif light; */
   font-size: 20px;
-  color: #40A0E0
+  color: white;
+  /* background: green; */
+  margin: 300px;
+  position:absolute; 
+  right:-270px;
+  top: -200px;
 }
+
 .coming-soon {
   padding: 100px;
   width: 60%;
-
 }
